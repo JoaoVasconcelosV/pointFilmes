@@ -1,26 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react'
+import SideBar from './components/SideBar'
+import Content from './components/Content'
+import { Api } from './services/api'
+import './App.scss'
+
+interface Movie {  
+  title: string,
+  img: string,
+  rate: string,
+  duration: string,
+  link: string,
+  genreId: number
+}
+
+interface Categories {
+  id: number,
+  name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror',
+  title: string
+}
+
+const initialCategorySelectedState: Categories = {
+  id: 1,
+  name: "action",
+  title: "Ação"
+}
 
 function App() {
+  const [movies, setMovies] = useState<Movie[]>([]);
+  const [categories, setCategories] = useState<Categories[]>([]);
+  const [categorySelected, setCategorySelected] = useState<Categories>(initialCategorySelectedState);
+
+  useEffect(() => {
+    (async function req() {
+      const genres = await Api.get("/genres");
+      
+      setCategories(genres.data);
+    }())
+  }, [])
+
+  useEffect(() => {    
+    (async function req() {
+      const movies = await Api.get(`/movies/?Genre_id=${categorySelected.id}`);      
+
+      setMovies(movies.data);
+    }())    
+  }, [categorySelected])  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <SideBar categories={categories} selectCategory={setCategorySelected} selectedCategory={categorySelected} />
+      <Content category={categorySelected.title} movies={movies}/>
     </div>
-  );
+  )
 }
 
 export default App;

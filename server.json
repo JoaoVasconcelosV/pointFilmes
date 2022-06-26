@@ -1,0 +1,408 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "action",
+      "title": "Ação"
+    },
+    {
+      "id": 2,
+      "name": "comedy",
+      "title": "Comédia"
+    },
+    {
+      "id": 3,
+      "name": "horror",
+      "title": "Terror"
+    },
+    {
+      "id": 4,
+      "name": "drama",
+      "title": "Drama"
+    },
+    {
+      "id": 5,
+      "name": "documentary",
+      "title": "Documentário"
+    }    
+  ],
+  "movies": [
+    {
+      "Genre_id": 1,
+      "Title": "Dune",      
+      "Runtime": "155 min",
+      "Poster": "https://assets-prd.ignimgs.com/2021/08/09/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt1160419/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 1,
+      "Title": "Venom: Let There Be Carnage",      
+      "Runtime": "97 min",
+      "Poster": "https://static2.srcdn.com/wordpress/wp-content/uploads/2021/08/New-Venom-2-Poster.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.3/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt7097896/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 1,
+      "Title": "Free Guy",      
+      "Runtime": "115 min",
+      "Poster": "https://movizark.files.wordpress.com/2021/07/free_guy_ver6.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.2/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt6264654/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 1,
+      "Title": "Spider-Man: Far from Home",      
+      "Runtime": "129 min",
+      "Poster": "https://upload.wikimedia.org/wikipedia/pt/0/04/Spider-man-far-from-home-poster.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt6320628/?ref_=tt_sims_tt_t_1"
+    },
+    {
+      "Genre_id": 1,
+      "Title": "Eternals",      
+      "Runtime": "157 min",
+      "Poster": "https://pbs.twimg.com/media/E9IQsvQVEAQepsO.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.3/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt9032400/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 1,
+      "Title": "Army of Thieves",      
+      "Runtime": "127 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmI0NzRkOGItNjcwOC00MWIzLWJmNWMtNWUxNjIwZjQyNDIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.4/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt13024674/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "The French Dispatch",      
+      "Runtime": "108 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt8847712/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "Sex Education",      
+      "Runtime": "45 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODhmN2Q4ZjUtNzE5Ni00YWQxLThmYjYtM2NkNDEwNmFhMGY3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.3/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt7767422/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "The Office",      
+      "Runtime": "22 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.9/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt0386676/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "The Suicide Squad",      
+      "Runtime": "132 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGM3YzdlOWYtNjViZS00MTE2LWE1MWUtZmE2ZTcxZjcyMmU3XkEyXkFqcGdeQXVyODEyMTI1MjA@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt6334354/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "Cruella",      
+      "Runtime": "134 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWI5YTUxOWEtZmRiZS00ZmQxLWE2NzctYTRiODA2NzE1ZjczXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt3228774/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 2,
+      "Title": "Scary Movie",      
+      "Runtime": "88 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.2/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt0175142/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "Locke & Key",      
+      "Runtime": "48 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNmYyNWNkNGYtYTgyZS00NTA5LTliMzgtZWU5NzRhOTkxMTYxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt3007572/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "Halloween Kills",      
+      "Runtime": "105 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjg3N2UzYjItZDJiNS00NmUyLThkZmYtYmE4NTQ1OGU5YTM3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt10665338/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "Last Night in Soho",      
+      "Runtime": "116 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjgwZDIwY2MtNGZlNy00NGRlLWFmNTgtOTBkZThjMDUwMGJhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt9639470/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "Midnight Mass",      
+      "Runtime": "450 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWVmZWQ5ZmItZjc2OC00MTFhLWI4OTEtNWY3MDg0OWY3YTJjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt10574558/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "Night Teeth",      
+      "Runtime": "107 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDhmODAxYzItYjRjNi00ZmI2LWIwMDktZTYwZWNiYWZhMTUzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.6/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt10763820/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 3,
+      "Title": "American Horror Story",      
+      "Runtime": "60 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTdlMTNiNWItNTVhOS00OWNjLTg0NWYtMDU2M2MyMjdkYTcyXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt1844624/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "You",      
+      "Runtime": "45 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDJjOTg4OWYtYWIyOS00MjQ3LTg5ZDktYzU2N2RkNmYzNjZlXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt7335184/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "Squid Game",      
+      "Runtime": "60 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt10919420/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "Succession",      
+      "Runtime": "60 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDE0ODVlYjktNjJiMC00ODk4LWIwNTktMWRhZmZiOGFhYmUwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt7660850/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "Maid",      
+      "Runtime": "545 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjA5NTZiZDYtMzA2NS00MDE2LTk0Y2EtMThhOTk0OTEwNDdhXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.5/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt11337908/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "Invasion",      
+      "Runtime": "60 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNGQ3M2VmZTEtOTlkZC00ZmIzLWFhZjktZDA4NTE0Mzk2OTU2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "5.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt9737326/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 4,
+      "Title": "The Last Duel",      
+      "Runtime": "152 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZGExZTUzYWQtYWJjZi00OTI4LTk4OGYtNTA2YzcwMmNiZTMxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.7/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt4244994/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 5,
+      "Title": "Pelé",      
+      "Runtime": "108 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg2NzQwMzQyMF5BMl5BanBnXkFtZTgwNzkzODk2ODE@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt13842562/?ref_=fn_al_tt_2"
+    },
+    {
+      "Genre_id": 5,
+      "Title": "Found",      
+      "Runtime": "97 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjE2MTIwZDMtNDZlNC00OTllLTk2YTQtMWIwYTljNzI0YzQ1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt13622146/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 5,
+      "Title": "Dark Side of the Ring",      
+      "Runtime": "60 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmNhMjE0YjEtMjFhZC00OGY1LWFkZWYtNmUxN2EwNTI4MDA5XkEyXkFqcGdeQXVyMzg2MDAzNzQ@._V1_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt9159144/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 5,
+      "Title": "Roman Empire",      
+      "Runtime": "48 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BY2UxYmY0NDktYTk2Mi00ZjI4LWJhYTAtYTEzMzYyNGU3ZTEzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjMyMTk1OQ@@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt6233538/?ref_=adv_li_tt"
+    },
+    {
+      "Genre_id": 5,
+      "Title": "House of Secrets: The Burari Deaths",      
+      "Runtime": "135 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmVhNDY4ODEtMGY2My00MDZjLThjMmItYTE0OGYyMjJjZTkwXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_FMjpg_UX1000_.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        }        
+      ],
+      "Site": "https://www.imdb.com/title/tt14167390/?ref_=adv_li_tt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.content {
+  overflow-y: auto;
+  
+  height: 100vh;
+  
+  flex: 1;  
+
+  text-align: center;
+
+  padding: 30px 0;
+
+  h3 {
+    font-size: 36px;
+    color: #fff;
+  }
+
+  &::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: var(--blue);        
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--blue-bg);  
+    border-radius: 20px;     
+    border: 3px solid var(--blue-sky);
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+  }
+}
